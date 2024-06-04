@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    top: 0%;
+    
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-sidebar {
+    border-right: 1px solid #222121;
+}
+
+.right-sidebar {
+    border-left: 1px solid #141313;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .sidebar, .content {
+        width: 100%;
+        border: none;
+    }
+
+    .left-sidebar {
+        border-bottom: 1px solid #0e0e0e;
+    }
+
+    .right-sidebar {
+        border-top: 1px solid #171616;
+    }
+}
