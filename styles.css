@@ -11,7 +11,7 @@ header {
 
 .sidebar {
     width: 20%;
-    background-color: #f4f4f4;
+    background-color: tomato;
     padding: 20px;
     box-sizing: border-box;
 }
